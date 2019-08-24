@@ -2313,3 +2313,1063 @@ INFO  2019-08-10 18:36:57,247 [37   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2019-08-10 18:36:57,255 [44   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
 INFO  2019-08-10 18:36:57,255 [44   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpUserConfigurationController.GetAll (Abp.AspNetCore) in 16.8797ms
 INFO  2019-08-10 18:36:57,255 [44   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.7056ms 200 application/json; charset=utf-8
+DEBUG 2019-08-24 12:07:24,933 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 12:07:24,968 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 12:07:24,981 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,983 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,984 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,985 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:24,988 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 12:07:25,037 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:07:25,037 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:07:25,037 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:07:25,037 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:07:25,275 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:07:25,624 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 12:07:25,872 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 12:07:26,020 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 12:07:26,039 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 12:07:26,066 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 12:07:26,094 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 12:07:26,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 12:07:26,132 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 12:07:26,138 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 12:07:26,139 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 12:07:26,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 12:07:26,140 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+DEBUG 2019-08-24 12:08:03,587 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 12:08:03,655 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 12:08:03,670 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,672 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,673 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,674 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,675 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:03,677 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 12:08:03,763 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:08:03,763 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:08:03,764 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:08:03,764 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:08:04,099 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:08:05,128 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 12:08:05,425 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 12:08:05,474 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 12:08:05,496 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 12:08:05,523 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 12:08:05,709 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 12:08:05,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 12:08:05,757 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 12:08:05,765 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 12:08:05,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 12:08:05,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 12:08:05,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 12:08:05,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 12:08:05,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 12:08:05,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 12:08:05,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 12:08:05,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 12:08:11,617 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 12:08:15,867 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 12:08:16,958 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 12:08:16,963 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.7577ms.
+INFO  2019-08-24 12:08:17,988 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 12:08:18,005 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 2130.7458ms
+INFO  2019-08-24 12:08:18,103 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6491.2369ms 302 
+INFO  2019-08-24 12:08:18,109 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2019-08-24 12:08:18,126 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.733ms 301 
+INFO  2019-08-24 12:08:18,128 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 12:08:18,166 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.4303ms 200 text/html
+INFO  2019-08-24 12:08:18,181 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 12:08:18,184 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 12:08:18,196 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2019-08-24 12:08:18,198 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 12:08:18,230 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'F:\Code\GitHub\docker\src\AnBook.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2019-08-24 12:08:18,233 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 41.8422ms 200 application/javascript
+INFO  2019-08-24 12:08:18,235 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2019-08-24 12:08:18,271 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'F:\Code\GitHub\docker\src\AnBook.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2019-08-24 12:08:18,274 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2019-08-24 12:08:18,282 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.779ms 200 application/javascript
+INFO  2019-08-24 12:08:18,286 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 101.9899ms 200 text/css
+INFO  2019-08-24 12:08:18,295 [13   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2019-08-24 12:08:18,301 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 103.5668ms 200 application/javascript
+INFO  2019-08-24 12:08:18,330 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2019-08-24 12:08:18,333 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 150.1556ms 200 application/javascript
+INFO  2019-08-24 12:08:18,568 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 12:08:18,621 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-08-24 12:08:18,896 [7    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2019-08-24 12:08:18,898 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 279.1232ms 200 image/png
+INFO  2019-08-24 12:08:19,265 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 695.5362ms 200 application/json;charset=utf-8
+DEBUG 2019-08-24 12:10:22,207 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 12:10:22,227 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 12:10:22,241 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,243 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,244 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,245 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,246 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,248 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 12:10:22,295 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:10:22,295 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:10:22,295 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:10:22,296 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 12:10:22,600 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 12:10:22,902 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 12:10:23,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 12:10:23,200 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 12:10:23,217 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 12:10:23,242 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 12:10:23,269 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 12:10:23,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 12:10:23,303 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 12:10:23,309 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 12:10:23,310 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 12:10:23,311 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 12:10:23,311 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 12:10:27,980 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 12:10:29,835 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 12:10:30,380 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 12:10:30,732 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.7443ms.
+INFO  2019-08-24 12:10:32,020 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 12:10:32,352 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 2410.6321ms
+INFO  2019-08-24 12:10:32,402 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4434.3908ms 302 
+INFO  2019-08-24 12:10:32,402 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 12:10:32,441 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.7864ms 200 text/html
+INFO  2019-08-24 12:10:32,458 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 12:10:32,463 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 12:10:32,477 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 12:10:32,481 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-08-24 12:10:32,481 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-08-24 12:10:32,481 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-08-24 12:10:32,484 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.3933ms 304 application/javascript
+INFO  2019-08-24 12:10:32,484 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 26.82ms 304 text/css
+INFO  2019-08-24 12:10:32,484 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 21.7409ms 304 application/javascript
+INFO  2019-08-24 12:10:32,774 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 12:10:32,987 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 213.0639ms 200 application/json;charset=utf-8
+DEBUG 2019-08-24 13:24:09,987 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 13:24:10,127 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 13:24:10,146 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,149 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,150 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,151 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,152 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,153 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,154 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:10,159 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 13:24:10,254 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:24:10,254 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:24:10,254 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:24:10,254 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:24:10,815 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:24:11,448 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 13:24:11,663 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 13:24:11,722 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 13:24:11,836 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 13:24:11,877 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 13:24:11,924 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:24:11,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 13:24:11,997 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 13:24:12,006 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 13:24:12,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 13:24:12,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 13:24:12,008 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 13:24:12,009 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 13:24:12,009 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 13:24:12,009 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 13:24:12,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 13:24:12,010 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 13:24:23,225 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 13:24:26,046 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 13:24:26,809 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 13:24:26,817 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6601ms.
+INFO  2019-08-24 13:24:27,341 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 13:24:27,370 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 1315.9717ms
+INFO  2019-08-24 13:24:27,507 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4304.129ms 302 
+INFO  2019-08-24 13:24:27,509 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 13:24:27,580 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.7428ms 200 text/html
+INFO  2019-08-24 13:24:27,616 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 13:24:27,651 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 13:24:27,661 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-08-24 13:24:27,661 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-08-24 13:24:27,667 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.5818ms 304 application/javascript
+INFO  2019-08-24 13:24:27,667 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50.9867ms 304 text/css
+INFO  2019-08-24 13:24:27,688 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 13:24:27,691 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-08-24 13:24:27,691 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.6333ms 304 application/javascript
+INFO  2019-08-24 13:24:28,317 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 13:24:28,774 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 457.316ms 200 application/json;charset=utf-8
+DEBUG 2019-08-24 13:53:11,083 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 13:53:11,121 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 13:53:11,160 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,164 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,165 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,166 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,167 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,168 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,169 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,170 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,171 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:11,176 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 13:53:11,280 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:53:11,281 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:53:11,281 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:53:11,281 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:53:11,924 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:53:12,611 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 13:53:12,864 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 13:53:12,924 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 13:53:12,950 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 13:53:13,006 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 13:53:13,079 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:53:13,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 13:53:13,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 13:53:13,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 13:53:13,171 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 13:53:13,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 13:53:13,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 13:53:13,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 13:53:13,172 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 13:53:13,173 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 13:53:13,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 13:53:13,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 13:53:23,009 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+ERROR 2019-08-24 13:53:23,987 [12   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLP8ATFIE79O", Request id "0HLP8ATFIE79O:00000001": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'AnBook.Users.UserAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetRoles (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangeLanguage (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangePassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ResetPassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Sessions.SessionAppService.GetCurrentLoginInformations (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRolesAsync (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAllPermissions (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRoleForEdit (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Configuration.ConfigurationAppService.ChangeUiTheme (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.IsTenantAvailable (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.Register (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-08-24 13:53:24,107 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1113.0026ms 500 
+INFO  2019-08-24 13:54:20,661 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+ERROR 2019-08-24 13:54:20,668 [5    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLP8ATFIE79O", Request id "0HLP8ATFIE79O:00000002": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'AnBook.Users.UserAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetRoles (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangeLanguage (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangePassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ResetPassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Sessions.SessionAppService.GetCurrentLoginInformations (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRolesAsync (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAllPermissions (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRoleForEdit (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Configuration.ConfigurationAppService.ChangeUiTheme (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.IsTenantAvailable (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.Register (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-08-24 13:54:20,669 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.9384ms 500 
+INFO  2019-08-24 13:54:21,823 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+ERROR 2019-08-24 13:54:21,826 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLP8ATFIE79O", Request id "0HLP8ATFIE79O:00000003": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'AnBook.Users.UserAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetRoles (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangeLanguage (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangePassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ResetPassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Sessions.SessionAppService.GetCurrentLoginInformations (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRolesAsync (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAllPermissions (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRoleForEdit (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Configuration.ConfigurationAppService.ChangeUiTheme (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.IsTenantAvailable (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.Register (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-08-24 13:54:21,827 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.3079ms 500 
+INFO  2019-08-24 13:54:21,959 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+ERROR 2019-08-24 13:54:21,961 [7    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLP8ATFIE79O", Request id "0HLP8ATFIE79O:00000004": An unhandled exception was thrown by the application.
+Microsoft.AspNetCore.Routing.RouteCreationException: The following errors occurred with attribute routing information:
+
+For action: 'AnBook.Users.UserAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetRoles (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangeLanguage (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ChangePassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.ResetPassword (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Users.UserAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Sessions.SessionAppService.GetCurrentLoginInformations (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRolesAsync (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAllPermissions (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetRoleForEdit (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Roles.RoleAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Create (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Delete (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Get (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.GetAll (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.MultiTenancy.TenantAppService.Update (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Configuration.ConfigurationAppService.ChangeUiTheme (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.IsTenantAvailable (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+
+For action: 'AnBook.Authorization.Accounts.AccountAppService.Register (AnBook.Application)'
+Error: The route template separator character '/' cannot appear consecutively. It must be separated by either a parameter or a literal value.
+Parameter name: routeTemplate
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetRouteInfos(IReadOnlyList`1 actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.AddEntries(TreeRouteBuilder builder, ActionDescriptorCollection actions)
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.GetTreeRouter()
+   at Microsoft.AspNetCore.Mvc.Internal.AttributeRoute.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Routing.RouteCollection.RouteAsync(RouteContext context)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-08-24 13:54:21,962 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.572ms 500 
+DEBUG 2019-08-24 13:54:37,094 [2    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2019-08-24 13:54:37,095 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:54:37,096 [2    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:54:37,097 [2    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2019-08-24 13:55:47,334 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 13:55:47,363 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 13:55:47,398 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:47,411 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 13:55:47,513 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:55:47,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:55:47,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:55:47,513 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:55:47,956 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:55:48,471 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 13:55:48,645 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 13:55:48,695 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 13:55:48,718 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 13:55:48,748 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 13:55:48,782 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:55:48,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 13:55:48,842 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 13:55:48,853 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 13:55:48,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 13:55:48,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 13:55:48,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 13:55:48,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 13:55:48,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 13:55:48,855 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 13:55:48,856 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 13:55:48,856 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 13:55:55,027 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 13:55:57,739 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 13:55:58,716 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 13:55:58,722 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.4147ms.
+INFO  2019-08-24 13:55:59,335 [12   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 13:55:59,365 [12   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 1620.7157ms
+INFO  2019-08-24 13:55:59,476 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4460.6041ms 302 
+INFO  2019-08-24 13:55:59,479 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 13:55:59,585 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 106.1382ms 200 text/html
+INFO  2019-08-24 13:55:59,679 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 13:55:59,681 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 13:55:59,683 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 13:55:59,713 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-08-24 13:55:59,713 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-08-24 13:55:59,713 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-08-24 13:55:59,717 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 33.5452ms 304 application/javascript
+INFO  2019-08-24 13:55:59,717 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.4212ms 304 text/css
+INFO  2019-08-24 13:55:59,717 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.1365ms 304 application/javascript
+INFO  2019-08-24 13:56:00,350 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 13:56:00,463 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2019-08-24 13:56:00,479 [12   ] NetCore.StaticFiles.StaticFileMiddleware - The file /favicon-32x32.png was not modified
+INFO  2019-08-24 13:56:00,479 [12   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.8473ms 304 image/png
+INFO  2019-08-24 13:56:00,889 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 539.4854ms 200 application/json;charset=utf-8
+DEBUG 2019-08-24 13:57:04,125 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 13:57:04,163 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 13:57:04,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,197 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:04,206 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 13:57:04,279 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:57:04,279 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:57:04,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:57:04,280 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:57:04,640 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:57:05,197 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 13:57:05,412 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 13:57:05,457 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 13:57:05,490 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 13:57:05,531 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 13:57:05,605 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:57:05,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 13:57:05,678 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 13:57:05,691 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 13:57:05,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 13:57:05,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 13:57:05,692 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 13:57:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 13:57:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 13:57:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 13:57:05,693 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 13:57:05,694 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 13:57:11,433 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 13:57:13,729 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 13:57:14,295 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 13:57:14,300 [13   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.176ms.
+INFO  2019-08-24 13:57:14,768 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 13:57:14,789 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 1055.9286ms
+INFO  2019-08-24 13:57:14,875 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3454.8459ms 302 
+INFO  2019-08-24 13:57:14,877 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 13:57:14,930 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.2924ms 200 text/html
+INFO  2019-08-24 13:57:14,956 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 13:57:14,958 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 13:57:14,964 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 13:57:14,988 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-08-24 13:57:14,988 [7    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-08-24 13:57:14,988 [13   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-08-24 13:57:14,992 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 34.8171ms 304 application/javascript
+INFO  2019-08-24 13:57:14,992 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.5486ms 304 application/javascript
+INFO  2019-08-24 13:57:14,992 [13   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.0674ms 304 text/css
+INFO  2019-08-24 13:57:15,437 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 13:57:16,020 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 582.9088ms 200 application/json;charset=utf-8
+INFO  2019-08-24 13:57:24,201 [7    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/Test/Env  0
+INFO  2019-08-24 13:57:24,303 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 13:57:24,326 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Env", controller = "Test", area = ""}. Executing action AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host)
+INFO  2019-08-24 13:57:24,327 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 13:57:24,333 [7    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host) - Validation state: Valid
+ERROR 2019-08-24 13:57:24,447 [6    ] Mvc.ExceptionHandling.AbpExceptionFilter - Error getting value from 'UsePollingFileWatcher' on 'Microsoft.Extensions.FileProviders.PhysicalFileProvider'.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'UsePollingFileWatcher' on 'Microsoft.Extensions.FileProviders.PhysicalFileProvider'. ---> System.InvalidOperationException: Cannot modify UsePollingFileWatcher once file watcher has been initialized.
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider.get_UsePollingFileWatcher()
+   at lambda_method(Closure , Object )
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target) in /_/Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs:line 111
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target) in /_/Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs:line 115
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 520
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 453
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 459
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 80
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 1151
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer) in /_/Src/Newtonsoft.Json/JsonConvert.cs:line 664
+   at AnBook.Web.Host.Controllers.TestController.Env() in F:\Code\GitHub\docker\src\AnBook.Web.Host\Controllers\TestController.cs:line 21
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+INFO  2019-08-24 13:57:24,453 [6    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host) in 126.0371ms
+ERROR 2019-08-24 13:57:24,466 [6    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HLP8AVJNP16A", Request id "0HLP8AVJNP16A:00000005": An unhandled exception was thrown by the application.
+Newtonsoft.Json.JsonSerializationException: Error getting value from 'UsePollingFileWatcher' on 'Microsoft.Extensions.FileProviders.PhysicalFileProvider'. ---> System.InvalidOperationException: Cannot modify UsePollingFileWatcher once file watcher has been initialized.
+   at Microsoft.Extensions.FileProviders.PhysicalFileProvider.get_UsePollingFileWatcher()
+   at lambda_method(Closure , Object )
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target) in /_/Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs:line 111
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target) in /_/Src/Newtonsoft.Json/Serialization/ExpressionValueProvider.cs:line 115
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 520
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 453
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 459
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType) in /_/Src/Newtonsoft.Json/Serialization/JsonSerializerInternalWriter.cs:line 80
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType) in /_/Src/Newtonsoft.Json/JsonSerializer.cs:line 1151
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer) in /_/Src/Newtonsoft.Json/JsonConvert.cs:line 664
+   at AnBook.Web.Host.Controllers.TestController.Env() in F:\Code\GitHub\docker\src\AnBook.Web.Host\Controllers\TestController.cs:line 21
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextExceptionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ExceptionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.InvokeCore(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext) in D:\Github\aspnetboilerplate\src\Abp.AspNetCore\AspNetCore\Security\AbpSecurityHeadersMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+INFO  2019-08-24 13:57:24,468 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 266.7523ms 500 
+DEBUG 2019-08-24 13:58:01,625 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 13:58:01,899 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 13:58:01,934 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,942 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,944 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,945 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,946 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,948 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,949 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,950 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:01,962 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 13:58:02,168 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:58:02,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:58:02,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:58:02,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 13:58:03,147 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 13:58:05,079 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 13:58:05,354 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 13:58:05,414 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 13:58:05,444 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 13:58:05,489 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 13:58:05,903 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 13:58:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 13:58:05,991 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 13:58:06,001 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 13:58:06,002 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 13:58:06,003 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 13:58:06,004 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 13:58:06,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 13:58:06,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 13:58:06,005 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 13:58:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 13:58:06,007 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 13:58:15,394 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/Test/Env  0
+INFO  2019-08-24 13:58:15,524 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 13:58:16,159 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 13:58:24,315 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Env", controller = "Test", area = ""}. Executing action AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host)
+INFO  2019-08-24 13:58:24,318 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 13:58:24,342 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 13:58:33,414 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host) - Validation state: Valid
+DEBUG 2019-08-24 14:01:11,823 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2019-08-24 14:01:11,857 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2019-08-24 14:01:11,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.Web.Host.Startup.AnBookWebHostModule, AnBook.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookWebCoreModule, AnBook.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookApplicationModule, AnBook.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.AnBookCoreModule, AnBook.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: AnBook.EntityFrameworkCore.AnBookEntityFrameworkModule, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,895 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,896 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=4.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:11,899 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2019-08-24 14:01:11,965 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 14:01:11,965 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 14:01:11,965 [1    ] o.Configuration.LanguageManagementConfig - Converted AnBook (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 14:01:11,965 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2019-08-24 14:01:12,365 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: AnBook.EntityFrameworkCore.AnBookDbContext, AnBook.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2019-08-24 14:01:12,897 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2019-08-24 14:01:13,114 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2019-08-24 14:01:13,173 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2019-08-24 14:01:13,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AnBook
+DEBUG 2019-08-24 14:01:13,267 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2019-08-24 14:01:13,329 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2019-08-24 14:01:13,379 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes define auto mapping attributes
+DEBUG 2019-08-24 14:01:13,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2019-08-24 14:01:13,388 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.CreateUserDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Users.Dto.UserDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Sessions.Dto.UserLoginInfoDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.CreateRoleDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.PermissionDto
+DEBUG 2019-08-24 14:01:13,389 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.Roles.Dto.RoleDto
+DEBUG 2019-08-24 14:01:13,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2019-08-24 14:01:13,390 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - AnBook.MultiTenancy.Dto.TenantDto
+INFO  2019-08-24 14:01:19,153 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2019-08-24 14:01:21,989 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host)
+INFO  2019-08-24 14:01:22,654 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 14:01:22,659 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 2.6192ms.
+INFO  2019-08-24 14:01:23,091 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2019-08-24 14:01:23,118 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.HomeController.Index (AnBook.Web.Host) in 1120.0888ms
+INFO  2019-08-24 14:01:23,251 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4107.4467ms 302 
+INFO  2019-08-24 14:01:23,252 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2019-08-24 14:01:23,296 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.7781ms 200 text/html
+INFO  2019-08-24 14:01:23,316 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2019-08-24 14:01:23,320 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2019-08-24 14:01:23,321 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2019-08-24 14:01:23,353 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-bundle.js was not modified
+INFO  2019-08-24 14:01:23,353 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2019-08-24 14:01:23,353 [6    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui-standalone-preset.js was not modified
+INFO  2019-08-24 14:01:23,357 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.7474ms 304 text/css
+INFO  2019-08-24 14:01:23,357 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 37.2494ms 304 application/javascript
+INFO  2019-08-24 14:01:23,357 [6    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 36.5745ms 304 application/javascript
+INFO  2019-08-24 14:01:23,769 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2019-08-24 14:01:24,224 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 455.3173ms 200 application/json;charset=utf-8
+INFO  2019-08-24 14:29:04,787 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:21021/api/Test/Env  0
+INFO  2019-08-24 14:29:04,804 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 14:29:04,838 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Route matched with {action = "Env", controller = "Test", area = ""}. Executing action AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host)
+INFO  2019-08-24 14:29:04,839 [47   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution successful.
+INFO  2019-08-24 14:29:04,846 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host) - Validation state: Valid
+INFO  2019-08-24 14:29:04,852 [47   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host), returned result Microsoft.AspNetCore.Mvc.JsonResult in 5.566ms.
+INFO  2019-08-24 14:29:04,968 [57   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2019-08-24 14:29:04,985 [57   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action AnBook.Web.Host.Controllers.TestController.Env (AnBook.Web.Host) in 146.545ms
+INFO  2019-08-24 14:29:04,986 [57   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 199.6294ms 200 application/json; charset=utf-8

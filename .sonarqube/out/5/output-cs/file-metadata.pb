@@ -1,0 +1,11 @@
+B
+9F:\Code\GitHub\docker\test\AnBook.Tests\AnBookTestBase.csutf-8D
+;F:\Code\GitHub\docker\test\AnBook.Tests\AnBookTestModule.csutf-8b
+YF:\Code\GitHub\docker\test\AnBook.Tests\DependencyInjection\ServiceCollectionRegistrar.csutf-8L
+CF:\Code\GitHub\docker\test\AnBook.Tests\MultiTenantFactAttribute.csutf-8K
+BF:\Code\GitHub\docker\test\AnBook.Tests\Properties\AssemblyInfo.csutf-8T
+KF:\Code\GitHub\docker\test\AnBook.Tests\Sessions\SessionAppService_Tests.csutf-8N
+EF:\Code\GitHub\docker\test\AnBook.Tests\Users\UserAppService_Tests.csutf-8[
+PC:\Users\tianz\AppData\Local\Temp\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8c
+WF:\Code\GitHub\docker\test\AnBook.Tests\obj\Debug\netcoreapp2.2\AnBook.Tests.Program.csutf-16g
+\F:\Code\GitHub\docker\test\AnBook.Tests\obj\Debug\netcoreapp2.2\AnBook.Tests.AssemblyInfo.csutf-8

@@ -42,9 +42,7 @@ namespace AnBook
             Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
 
             Configuration.Modules.AbpAspNetCore()
-                 .CreateControllersForAppServices(
-                     typeof(AnBookApplicationModule).GetAssembly()
-                 );
+                 .CreateControllersForAppServices(typeof(AnBookApplicationModule).GetAssembly());
 
             ConfigureTokenAuth();
         }

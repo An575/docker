@@ -1,0 +1,9 @@
+J
+AF:\Code\GitHub\docker\src\AnBook.Migrator\AnBookMigratorModule.csutf-8d
+[F:\Code\GitHub\docker\src\AnBook.Migrator\DependencyInjection\ServiceCollectionRegistrar.csutf-89
+0F:\Code\GitHub\docker\src\AnBook.Migrator\Log.csutf-8P
+GF:\Code\GitHub\docker\src\AnBook.Migrator\MultiTenantMigrateExecuter.csutf-8=
+4F:\Code\GitHub\docker\src\AnBook.Migrator\Program.csutf-8M
+DF:\Code\GitHub\docker\src\AnBook.Migrator\Properties\AssemblyInfo.csutf-8[
+PC:\Users\tianz\AppData\Local\Temp\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8l
+aF:\Code\GitHub\docker\src\AnBook.Migrator\obj\Debug\netcoreapp2.2\AnBook.Migrator.AssemblyInfo.csutf-8

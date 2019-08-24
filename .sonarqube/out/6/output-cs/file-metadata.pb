@@ -1,0 +1,11 @@
+W
+NF:\Code\GitHub\docker\src\AnBook.Web.Host\Controllers\AntiForgeryController.csutf-8P
+GF:\Code\GitHub\docker\src\AnBook.Web.Host\Controllers\HomeController.csutf-8P
+GF:\Code\GitHub\docker\src\AnBook.Web.Host\Controllers\TestController.csutf-8Q
+HF:\Code\GitHub\docker\src\AnBook.Web.Host\Startup\AnBookWebHostModule.csutf-8L
+CF:\Code\GitHub\docker\src\AnBook.Web.Host\Startup\AuthConfigurer.csutf-8E
+<F:\Code\GitHub\docker\src\AnBook.Web.Host\Startup\Program.csutf-8E
+<F:\Code\GitHub\docker\src\AnBook.Web.Host\Startup\Startup.csutf-8[
+PC:\Users\tianz\AppData\Local\Temp\.NETCoreApp,Version=v2.2.AssemblyAttributes.csutf-8q
+fF:\Code\GitHub\docker\src\AnBook.Web.Host\obj\Debug\netcoreapp2.2\AnBook.Web.Host.RazorAssemblyInfo.csutf-8l
+aF:\Code\GitHub\docker\src\AnBook.Web.Host\obj\Debug\netcoreapp2.2\AnBook.Web.Host.AssemblyInfo.csutf-8

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>AnBook.Migrator</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>880b3591-e057-46fe-b525-10bd83828b93</ProjectGuid>
+  <FullPath>F:\Code\GitHub\docker\src\AnBook.Migrator\AnBook.Migrator.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="F:\Code\GitHub\docker\.sonarqube\out\3\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">F:\Code\GitHub\docker\src\AnBook.Migrator\bin\Debug\netcoreapp2.2\AnBook.Migrator.dll.RoslynCA.json|F:\Code\GitHub\docker\src\AnBook.Migrator\bin\Debug\netcoreapp2.2\AnBook.Migrator.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">F:\Code\GitHub\docker\.sonarqube\out\3</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>netcoreapp2.2</TargetFramework>
+</ProjectInfo>
