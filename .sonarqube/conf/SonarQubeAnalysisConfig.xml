@@ -100,7 +100,7 @@
     <Property Name="sonar.java.collectAnalysisErrors">false</Property>
     <Property Name="sonar.updatecenter.url">https://update.sonarsource.org/update-center.properties</Property>
     <Property Name="sonar.core.id">243B8A4D-AWyh7E4o2jJcqJIIPrnP</Property>
-    <Property Name="sonar.core.startTime">2019/8/24 17:55:56</Property>
+    <Property Name="sonar.core.startTime">2019/8/24 20:57:42</Property>
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://192.168.148.136:9000</Property>

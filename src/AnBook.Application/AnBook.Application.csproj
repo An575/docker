@@ -19,4 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AnBook.Core\AnBook.Core.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AnBooks\Books\Dto\" />
+  </ItemGroup>
 </Project>

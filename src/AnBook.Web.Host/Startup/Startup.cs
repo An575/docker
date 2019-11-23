@@ -1,21 +1,22 @@
-﻿using System;
-using System.Linq;
-using System.Reflection;
+﻿using Abp.AspNetCore;
+using Abp.AspNetCore.SignalR.Hubs;
+using Abp.Castle.Logging.Log4Net;
+using Abp.Extensions;
+using AnBook.Configuration;
+using AnBook.Identity;
+using AnBook.Web.Host.Core.Logger;
+using Castle.Facilities.Logging;
+using Exceptionless;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Cors.Internal;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Castle.Facilities.Logging;
 using Swashbuckle.AspNetCore.Swagger;
-using Abp.AspNetCore;
-using Abp.Castle.Logging.Log4Net;
-using Abp.Extensions;
-using AnBook.Configuration;
-using AnBook.Identity;
-
-using Abp.AspNetCore.SignalR.Hubs;
+using System;
+using System.Linq;
+using System.Reflection;
 
 namespace AnBook.Web.Host.Startup
 {
@@ -76,6 +77,8 @@ namespace AnBook.Web.Host.Startup
                 });
             });
 
+            services.AddSingleton<Castle.Core.Logging.ILogger, ExceptionLessLogger>();
+
             // Configure Abp and Dependency Injection
             return services.AddAbp<AnBookWebHostModule>(
                 // Configure Log4Net logging
@@ -87,6 +90,9 @@ namespace AnBook.Web.Host.Startup
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            ExceptionlessClient.Default.Configuration.ApiKey = _appConfiguration.GetSection("Exceptionless:ApiKey").Value;
+            ExceptionlessClient.Default.Configuration.ServerUrl = _appConfiguration.GetSection("Exceptionless:ServerUrl").Value;
+            app.UseExceptionless();
             app.UseAbp(options => { options.UseAbpRequestLocalization = false; }); // Initializes ABP framework.
 
             app.UseCors(_defaultCorsPolicyName); // Enable CORS!

@@ -109,150 +109,150 @@
 .-- +
 CreateControllersForAppServices-- 1
 (--1 2
-typeof.. 
-(.. #
-AnBookApplicationModule.. 3
-)..3 4
-...4 5
-GetAssembly..5 @
-(..@ A
-)..A B
-)// 
-;// 
-ConfigureTokenAuth11 
-(11 
-)11  
-;11  !
-}22 	
-private44 
-void44 
-ConfigureTokenAuth44 '
-(44' (
-)44( )
-{55 	
+typeof--2 8
+(--8 9#
+AnBookApplicationModule--9 P
+)--P Q
+.--Q R
+GetAssembly--R ]
+(--] ^
+)--^ _
+)--_ `
+;--` a
+ConfigureTokenAuth// 
+(// 
+)//  
+;//  !
+}00 	
+private22 
+void22 
+ConfigureTokenAuth22 '
+(22' (
+)22( )
+{33 	
 
-IocManager66 
-.66 
-Register66 
-<66  "
-TokenAuthConfiguration66  6
->666 7
-(667 8
-)668 9
-;669 :
-var77 
-tokenAuthConfig77 
-=77  !
+IocManager44 
+.44 
+Register44 
+<44  "
+TokenAuthConfiguration44  6
+>446 7
+(447 8
+)448 9
+;449 :
+var55 
+tokenAuthConfig55 
+=55  !
 
-IocManager77" ,
-.77, -
-Resolve77- 4
-<774 5"
-TokenAuthConfiguration775 K
->77K L
-(77L M
-)77M N
-;77N O
-tokenAuthConfig99 
-.99 
-SecurityKey99 '
-=99( )
-new99* - 
-SymmetricSecurityKey99. B
-(99B C
-Encoding99C K
-.99K L
-ASCII99L Q
-.99Q R
-GetBytes99R Z
-(99Z [
-_appConfiguration99[ l
-[99l m
-$str	99m “
+IocManager55" ,
+.55, -
+Resolve55- 4
+<554 5"
+TokenAuthConfiguration555 K
+>55K L
+(55L M
+)55M N
+;55N O
+tokenAuthConfig77 
+.77 
+SecurityKey77 '
+=77( )
+new77* - 
+SymmetricSecurityKey77. B
+(77B C
+Encoding77C K
+.77K L
+ASCII77L Q
+.77Q R
+GetBytes77R Z
+(77Z [
+_appConfiguration77[ l
+[77l m
+$str	77m “
 ]
-99“ ”
+77“ ”
 )
-99” •
+77” •
 )
-99• –
+77• –
 ;
-99– —
+77– —
+tokenAuthConfig88 
+.88 
+Issuer88 "
+=88# $
+_appConfiguration88% 6
+[886 7
+$str887 X
+]88X Y
+;88Y Z
+tokenAuthConfig99 
+.99 
+Audience99 $
+=99% &
+_appConfiguration99' 8
+[998 9
+$str999 \
+]99\ ]
+;99] ^
 tokenAuthConfig:: 
-.:: 
-Issuer:: "
-=::# $
-_appConfiguration::% 6
-[::6 7
-$str::7 X
-]::X Y
-;::Y Z
-tokenAuthConfig;; 
-.;; 
-Audience;; $
-=;;% &
-_appConfiguration;;' 8
-[;;8 9
-$str;;9 \
-];;\ ]
-;;;] ^
-tokenAuthConfig<< 
-.<< 
-SigningCredentials<< .
-=<</ 0
-new<<1 4
-SigningCredentials<<5 G
-(<<G H
-tokenAuthConfig<<H W
-.<<W X
-SecurityKey<<X c
-,<<c d
-SecurityAlgorithms<<e w
-.<<w x
+.:: 
+SigningCredentials:: .
+=::/ 0
+new::1 4
+SigningCredentials::5 G
+(::G H
+tokenAuthConfig::H W
+.::W X
+SecurityKey::X c
+,::c d
+SecurityAlgorithms::e w
+.::w x
 
-HmacSha256	<<x ‚
+HmacSha256	::x ‚
 )
-<<‚ ƒ
+::‚ ƒ
 ;
-<<ƒ „
-tokenAuthConfig== 
-.== 
+::ƒ „
+tokenAuthConfig;; 
+.;; 
 
-Expiration== &
-===' (
-TimeSpan==) 1
-.==1 2
-FromDays==2 :
-(==: ;
-$num==; <
-)==< =
-;=== >
-}>> 	
-public@@ 
-override@@ 
-void@@ 
+Expiration;; &
+=;;' (
+TimeSpan;;) 1
+.;;1 2
+FromDays;;2 :
+(;;: ;
+$num;;; <
+);;< =
+;;;= >
+}<< 	
+public>> 
+override>> 
+void>> 
 
-Initialize@@ '
-(@@' (
-)@@( )
-{AA 	
+Initialize>> '
+(>>' (
+)>>( )
+{?? 	
 
-IocManagerBB 
-.BB (
-RegisterAssemblyByConventionBB 3
-(BB3 4
-typeofBB4 :
-(BB: ;
-AnBookWebCoreModuleBB; N
-)BBN O
-.BBO P
-GetAssemblyBBP [
-(BB[ \
-)BB\ ]
-)BB] ^
-;BB^ _
-}CC 	
-}DD 
-}EE ¹
+IocManager@@ 
+.@@ (
+RegisterAssemblyByConvention@@ 3
+(@@3 4
+typeof@@4 :
+(@@: ;
+AnBookWebCoreModule@@; N
+)@@N O
+.@@O P
+GetAssembly@@P [
+(@@[ \
+)@@\ ]
+)@@] ^
+;@@^ _
+}AA 	
+}BB 
+}CC ¹
 ^F:\Code\GitHub\docker\src\AnBook.Web.Core\Authentication\External\ExternalAuthConfiguration.cs
 	namespace 	
 AnBook
